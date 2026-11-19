@@ -1,0 +1,10 @@
+services:
+  bupabooks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5015:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: unless-stopped
