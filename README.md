@@ -30,7 +30,6 @@ A full-stack enterprise web application built with **ASP.NET Core (C#)** and **R
 
 ```text
 ├── BupaBooks.slnx                    # .NET Solution file
-├── docker-compose.yml                # Docker compose configuration
 ├── backend/
 │   ├── BupaBooks.Api/                # ASP.NET Core Web API
 │   │   ├── Controllers/              # HTTP API Controllers (BooksController.cs)
@@ -107,7 +106,7 @@ A full-stack enterprise web application built with **ASP.NET Core (C#)** and **R
 ## Prerequisites
 
 * **.NET SDK** (10.0, required by the backend target framework)
-* **Node.js** (20.x LTS or newer) & **npm**
+* **Node.js** (22.12.x, 24.x, or 26.x and newer) & **npm** (required by Vitest 5)
 
 ---
 
