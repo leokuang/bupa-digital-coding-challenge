@@ -59,7 +59,7 @@ A full-stack enterprise web application built with **ASP.NET Core (C#)** and **R
 
 ### Data Ingress & Egress Points
 * **Data In:** 
-  1. External Bupa Book Owners API (`https://bupa.com.au/...`) fetched via `BupaBooksClient`.
+  1. External Bupa Book Owners API (`https://digitalcodingtest.bupa.com.au/api/v1/bookowners`) fetched via `BupaBooksClient`.
   2. Browser User input (`Get Books` click / `Hardcover only` checkbox toggle) sent to `/api/books`.
 * **Data Out:**
   1. Rendered JSON response (`CategorizedBooksResponse` containing sorted Adult and Child book title arrays) returned to the React frontend.
